@@ -1,0 +1,17 @@
+{
+  "name": "productionnotready.github.io",
+  "version": "1.0.0",
+  "description": "Production Not Ready website",
+  "main": "index.js",
+  "repository": "git@github.com:productionnotready/productionnotready.github.io.git",
+  "author": "GS Low",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.8.2"
+  }
+}
