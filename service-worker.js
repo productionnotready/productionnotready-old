@@ -26,20 +26,24 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "1970/01/01/markdown/index.html",
-    "revision": "50fedaef193f5b4680d6c1b2df8e3082"
+    "url": "2021/05/30/hello-world/index.html",
+    "revision": "50fb07c13728d045ef9b9869cc825361"
   },
   {
-    "url": "2021/05/30/hello-world/index.html",
-    "revision": "519a08f26826de0bd503abd3e4f5085f"
+    "url": "2021/05/30/markdown/index.html",
+    "revision": "9b56a343f631204b2364e0945b3aa0ba"
+  },
+  {
+    "url": "2021/06/06/web-and-mobile-app-devt-on-apple-silicon/index.html",
+    "revision": "16f21140c743e5b24544df3cf0b0e0c5"
   },
   {
     "url": "404.html",
-    "revision": "2bfe38df184891fcbd3cd371d7425c8a"
+    "revision": "8fc2e152eb61b3ed1870a16cd9e70efe"
   },
   {
     "url": "about.html",
-    "revision": "b4faae1ae67cb4c4ebd787fc193c8802"
+    "revision": "f55e08a882275885194cc11dfb3100e1"
   },
   {
     "url": "assets/css/0.styles.b025bdb8.css",
@@ -74,24 +78,28 @@ self.__precacheManifest = [
     "revision": "3e481470393e57c8872ead9023b5e72d"
   },
   {
-    "url": "assets/js/14.95b23b38.js",
-    "revision": "02597708186e9580c6355ba9609bac90"
+    "url": "assets/js/14.987eada3.js",
+    "revision": "ca67ddb04fca2c355157e9f284707035"
   },
   {
-    "url": "assets/js/15.af45641b.js",
-    "revision": "39e8145d03576d1a9921ff40661a8e62"
+    "url": "assets/js/15.79244866.js",
+    "revision": "7b8cac34284a2aa221f41ce27ab72337"
   },
   {
-    "url": "assets/js/16.96eaf489.js",
-    "revision": "1ff3f009388b606dcca15b14d198cfcb"
+    "url": "assets/js/16.c9028855.js",
+    "revision": "1e340056afa52d597cf31eb3ab4dc946"
   },
   {
-    "url": "assets/js/3.33bcf755.js",
-    "revision": "f54a9689766a5a04c36a1aa51ea814be"
+    "url": "assets/js/17.b50ef90b.js",
+    "revision": "dc8cd6cb0b57da61d32a8aab4c900dd5"
   },
   {
-    "url": "assets/js/4.36e82b27.js",
-    "revision": "064deb803cc1fc9918ba337f433d17b6"
+    "url": "assets/js/3.8eafd426.js",
+    "revision": "fd58dda549e940a967763fac8179a36f"
+  },
+  {
+    "url": "assets/js/4.5cb9b945.js",
+    "revision": "63bb0f3457c5f9156a3d0bd2a1ede5c3"
   },
   {
     "url": "assets/js/5.095dbcb5.js",
@@ -102,8 +110,8 @@ self.__precacheManifest = [
     "revision": "54446ec6585b4b6a6733269443cb38e5"
   },
   {
-    "url": "assets/js/7.f649a1c9.js",
-    "revision": "830cdb15b6e41052198369cb29c8954c"
+    "url": "assets/js/7.d0fb346e.js",
+    "revision": "674c5b0b9decd5f0407ec939dc6514ea"
   },
   {
     "url": "assets/js/8.840f9a55.js",
@@ -114,8 +122,8 @@ self.__precacheManifest = [
     "revision": "8a62a7cc7a0739dbbd7255ef82dec88e"
   },
   {
-    "url": "assets/js/app.92d66b59.js",
-    "revision": "4cbf4c18feef09b4631170fed70c76dc"
+    "url": "assets/js/app.89a59320.js",
+    "revision": "8129158363e11e6a8628691f77114229"
   },
   {
     "url": "assets/js/vuejs-paginate.80342f30.js",
@@ -123,19 +131,27 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "17ead65d1dc117c7232284adba0fcef9"
+    "revision": "2ba327257fd50350acd7edfe251bb735"
+  },
+  {
+    "url": "tag/apple silicon/index.html",
+    "revision": "22fab669215a890aaaa423dd457b4ddd"
   },
   {
     "url": "tag/index.html",
-    "revision": "77cf8f6413719e269da1aa7b57f7dd71"
+    "revision": "93b5fbb0b059100622e65051c0de3c8d"
+  },
+  {
+    "url": "tag/macbook/index.html",
+    "revision": "1a06b9287fd4f21eff0c6ebbfd4c3acd"
   },
   {
     "url": "tag/test/index.html",
-    "revision": "bbc067529266b915166e1e1769ff6ce6"
+    "revision": "6317b524005fa82254b748c2091cfcb1"
   },
   {
     "url": "tests/index.html",
-    "revision": "467accc2a0cb6ee3630bc32ac268c8ba"
+    "revision": "3c512d1370ffc3b1eba3875488573fb8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
