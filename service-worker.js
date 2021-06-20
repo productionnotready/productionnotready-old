@@ -27,23 +27,27 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2021/05/30/hello-world/index.html",
-    "revision": "50fb07c13728d045ef9b9869cc825361"
+    "revision": "4a1d86a4a2e741db2cee150d8f508bed"
   },
   {
     "url": "2021/05/30/markdown/index.html",
-    "revision": "9b56a343f631204b2364e0945b3aa0ba"
+    "revision": "9ea3e7156782b65aea7a9fbdf27c73a3"
   },
   {
     "url": "2021/06/06/web-and-mobile-app-devt-on-apple-silicon/index.html",
-    "revision": "16f21140c743e5b24544df3cf0b0e0c5"
+    "revision": "04e4caad1e74a4291f11e4cdc249d54a"
+  },
+  {
+    "url": "2021/06/20/the-next-cobol/index.html",
+    "revision": "1722a92a71d2843541fd4dbf8674690b"
   },
   {
     "url": "404.html",
-    "revision": "8fc2e152eb61b3ed1870a16cd9e70efe"
+    "revision": "d63ffff241451e147a8473af256f601f"
   },
   {
     "url": "about.html",
-    "revision": "f55e08a882275885194cc11dfb3100e1"
+    "revision": "5264c98b9fb1441acbd9d63fd144d827"
   },
   {
     "url": "assets/css/0.styles.b025bdb8.css",
@@ -82,28 +86,32 @@ self.__precacheManifest = [
     "revision": "ca67ddb04fca2c355157e9f284707035"
   },
   {
-    "url": "assets/js/15.79244866.js",
-    "revision": "7b8cac34284a2aa221f41ce27ab72337"
+    "url": "assets/js/15.185e8d42.js",
+    "revision": "da8899f1685e0fce5139d39741e30fdd"
   },
   {
-    "url": "assets/js/16.c9028855.js",
-    "revision": "1e340056afa52d597cf31eb3ab4dc946"
+    "url": "assets/js/16.da7161c5.js",
+    "revision": "210156c3ff5204a3e08fe30fae0714ba"
   },
   {
-    "url": "assets/js/17.b50ef90b.js",
-    "revision": "dc8cd6cb0b57da61d32a8aab4c900dd5"
+    "url": "assets/js/17.6b681938.js",
+    "revision": "1ae656184898750ece3a243e4dddaa90"
   },
   {
-    "url": "assets/js/3.8eafd426.js",
-    "revision": "fd58dda549e940a967763fac8179a36f"
+    "url": "assets/js/18.bdc2c75b.js",
+    "revision": "788d2322df3b1eb464f93da9f91bb6e2"
   },
   {
-    "url": "assets/js/4.5cb9b945.js",
-    "revision": "63bb0f3457c5f9156a3d0bd2a1ede5c3"
+    "url": "assets/js/3.544de9d5.js",
+    "revision": "9104755fc1fb276f397ac0178ce46784"
   },
   {
-    "url": "assets/js/5.095dbcb5.js",
-    "revision": "8dcceca1f0cc850b992ec33bb501152e"
+    "url": "assets/js/4.789c1499.js",
+    "revision": "627797a2391c78779c212a50e8cb8411"
+  },
+  {
+    "url": "assets/js/5.443fafeb.js",
+    "revision": "fb56e2d3892b3953e8b5f4f5dcca1a7c"
   },
   {
     "url": "assets/js/6.eb774d15.js",
@@ -122,8 +130,8 @@ self.__precacheManifest = [
     "revision": "8a62a7cc7a0739dbbd7255ef82dec88e"
   },
   {
-    "url": "assets/js/app.89a59320.js",
-    "revision": "8129158363e11e6a8628691f77114229"
+    "url": "assets/js/app.0b7403e2.js",
+    "revision": "5ad78cd55caf02184c57c75c4dac17e3"
   },
   {
     "url": "assets/js/vuejs-paginate.80342f30.js",
@@ -131,27 +139,31 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "2ba327257fd50350acd7edfe251bb735"
+    "revision": "1cb4536ec4c28ddb4230d5c5c038bdc4"
   },
   {
     "url": "tag/apple silicon/index.html",
-    "revision": "22fab669215a890aaaa423dd457b4ddd"
+    "revision": "728b5cc3af7836adad4892e94849c0ac"
   },
   {
     "url": "tag/index.html",
-    "revision": "93b5fbb0b059100622e65051c0de3c8d"
+    "revision": "a2c456099e3a1a8c2554c40bbca7f9cf"
   },
   {
     "url": "tag/macbook/index.html",
-    "revision": "1a06b9287fd4f21eff0c6ebbfd4c3acd"
+    "revision": "6884ed2d4ceadeb7e3b39a2dd6861e73"
   },
   {
     "url": "tag/test/index.html",
-    "revision": "6317b524005fa82254b748c2091cfcb1"
+    "revision": "e802589654f1d247bc1d7aa45aee2bf2"
+  },
+  {
+    "url": "tag/thoughts/index.html",
+    "revision": "67ad560085be032c487d1c47cc2fec55"
   },
   {
     "url": "tests/index.html",
-    "revision": "3c512d1370ffc3b1eba3875488573fb8"
+    "revision": "2553e8a9cb54c0c793ba231b5426104c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
